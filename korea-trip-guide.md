@@ -13,29 +13,13 @@
   ul { margin: 0 0 20px 20px; }
   li { margin-bottom: 8px; }
   .section { background: #fff; padding: 15px 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-  .nav-buttons { margin-bottom: 15px; }
-  .nav-buttons button { margin-right: 10px; padding: 8px 12px; border: none; border-radius: 5px; background-color: #1a73e8; color: #fff; cursor: pointer; }
-  .nav-buttons button:hover { background-color: #155ab6; }
-  iframe { width: 100%; height: 300px; border: 0; margin-top: 10px; border-radius: 10px; }
 </style>
-<script>
-  function scrollToSection(id) {
-    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-  }
-</script>
 </head>
 <body>
 
 <h1>韓国旅行ガイド（2泊3日ソウルモデル）</h1>
 
-<div class="nav-buttons">
-  <button onclick="scrollToSection('plan')">プラン</button>
-  <button onclick="scrollToSection('shopping')">買い物・グルメ</button>
-  <button onclick="scrollToSection('palace')">景福宮</button>
-  <button onclick="scrollToSection('links')">参考リンク</button>
-</div>
-
-<div class="section" id="basics">
+<div class="section">
 <h2>1. 海外旅行の大前提</h2>
 <ul>
 <li><strong>パスポート</strong>：必須</li>
@@ -46,7 +30,7 @@
 </ul>
 </div>
 
-<div class="section" id="cities">
+<div class="section">
 <h2>2. 主な観光名所（都市別）</h2>
 <ul>
 <li><strong>ソウル</strong>：歴史・文化・ショッピング</li>
@@ -59,7 +43,7 @@
 </ul>
 </div>
 
-<div class="section" id="airport">
+<div class="section">
 <h2>3. 空港・航空券情報</h2>
 <ul>
 <li><strong>成田 → 仁川</strong></li>
@@ -69,14 +53,13 @@
 </ul>
 </div>
 
-<div class="section" id="plan">
+<div class="section">
 <h2>4. 2泊3日モデルプラン（ソウル中心）</h2>
 
 <h3>1日目（昼着）</h3>
 <ul>
 <li>明洞（買い物・屋台グルメ）</li>
 <li>夜：焼肉＆飲み屋</li>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.376037462508!2d126.98501937656587!3d37.56375727979551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2ef8b6cda27%3A0x41f0b6f4e9a8c3c3!2z5paw5a6_5pel5pys6Kqe44Gu!5e0!3m2!1sja!2sjp!4v1693820000000" allowfullscreen></iframe>
 </ul>
 
 <h3>2日目（終日）</h3>
@@ -87,7 +70,6 @@
     <li>韓服レンタルで写真撮影可</li>
     <li>所要時間：約1.5時間</li>
   </ul>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.435972981722!2d126.97693957656589!3d37.579617979798566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f3bb5a9e63%3A0x6110f5f5d915dc3b!2z5paw5a6_5pel5pys6Kqe44Gu!5e0!3m2!1sja!2sjp!4v1693820100000" allowfullscreen></iframe>
 </li>
 <li>北村韓屋村（伝統家屋を散策）</li>
 <li>仁寺洞（伝統工芸品・カフェ）</li>
@@ -101,7 +83,7 @@
 </ul>
 </div>
 
-<div class="section" id="links">
+<div class="section">
 <h2>5. 参考リンク</h2>
 <ul>
 <li><a href="https://www.visitseoul.net/" target="_blank">ソウル観光公式サイト</a></li>
@@ -111,7 +93,7 @@
 </ul>
 </div>
 
-<div class="section" id="tips">
+<div class="section">
 <h2>💡 ポイント</h2>
 <ul>
 <li>屋台や夜の散策は小銭を用意</li>
